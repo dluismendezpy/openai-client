@@ -1,0 +1,7 @@
+# Ignore artifacts:
+dist
+package-lock.json
+node_modules
+
+# Ignore all Markdown files:
+*.md
