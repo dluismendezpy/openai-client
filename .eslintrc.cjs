@@ -18,6 +18,11 @@ module.exports = {
 		extraFileExtensions: [".scss", ".html"],
 	},
 	plugins: ["react"],
+	settings: {
+		react: {
+			version: "detect",
+		},
+	},
 	rules: {
 		"@typescript-eslint/space-before-function-paren": [
 			"error",
