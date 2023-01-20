@@ -1,7 +1,7 @@
 import { Dispatch, useState } from "react";
 
-import { openai } from "@/utils";
 import { ValueProps } from "@/types";
+import { openai } from "@/utils";
 
 const useGenerateImage = (): [
 	({ value }: ValueProps) => Promise<void>,
