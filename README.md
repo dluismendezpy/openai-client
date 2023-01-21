@@ -10,6 +10,7 @@ generate, and Dall-E will quickly create it for me.
 ![Vite](https://img.shields.io/badge/-Vite-black?style=flat-square&logo=Vite)
 ![OpenAI](https://img.shields.io/badge/-OpenAI-black?style=flat-square&logo=OpenAI)
 ![Docker](https://img.shields.io/badge/-Docker-black?style=flat-square&logo=Docker)
+
 </div>
 
 ## Setup
