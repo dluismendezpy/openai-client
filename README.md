@@ -41,6 +41,12 @@ generate, and Dall-E will quickly create it for me.
     export VITE_OPENAI_API_KEY=<YOUR_VITE_OPENAI_API_KEY>
     docker-compose up --build
 
+## Examples
+
+![Screenshot](assets/img1.png)
+![Screenshot](assets/img2.png)
+![Screenshot](assets/img3.png)
+
 
 #### *Important*
 Make sure to create your OpenAI API key in order to run this application. [More info here](https://beta.openai.com/account/api-keys).
