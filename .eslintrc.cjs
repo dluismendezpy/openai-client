@@ -10,12 +10,11 @@ module.exports = {
 		"plugin:@typescript-eslint/eslint-recommended",
 	],
 	overrides: [],
-	parser: "@typescript-eslint/parser",
 	parserOptions: {
 		ecmaVersion: "latest",
 		sourceType: "module",
 		project: ["./tsconfig.json"],
-		extraFileExtensions: [".scss", ".html"],
+		tsconfigRootDir: __dirname,
 	},
 	plugins: ["react"],
 	settings: {
