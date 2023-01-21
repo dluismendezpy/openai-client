@@ -14,25 +14,22 @@ generate, and Dall-E will quickly create it for me.
 
 ## Setup
 
-- Cone repo (HTTPS, SSH or GH)
-
+#### Cone repo (HTTPS, SSH or GH)
 
     git clone https://github.com/dluismendezpy/openai-client.git
     git@github.com:dluismendezpy/openai-client.git
     gh repo clone dluismendezpy/openai-client
 
-- Install dependencies
-
+#### Install dependencies
 
     npm install
 
-- env variables
-    - Create .env and add VITE_OPENAI_API_KEY=<
-      YOUR_VITE_OPENAI_API_KEY> [Click here to create api key](https://beta.openai.com/account/api-keys)
-    - On Terminal, type  `export VITE_OPENAI_API_KEY=<YOUR_VITE_OPENAI_API_KEY>`
+#### Env variables
 
-- Start dev server
+- Create .env and add VITE_OPENAI_API_KEY=<YOUR_VITE_OPENAI_API_KEY> [Click here](https://beta.openai.com/account/api-keys)
+- On Terminal, type  `export VITE_OPENAI_API_KEY=<YOUR_VITE_OPENAI_API_KEY>`
 
+#### Start dev server
 
     npm run dev
 
@@ -49,4 +46,4 @@ generate, and Dall-E will quickly create it for me.
 
 
 #### *Important*
-Make sure to create your OpenAI API key in order to run this application. [More info here](https://beta.openai.com/account/api-keys).
+Make sure to create your OpenAI API key in order to run this application. [Learn more](https://beta.openai.com/account/api-keys).
