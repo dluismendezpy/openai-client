@@ -3,11 +3,12 @@
 	"private": true,
 	"version": "0.0.0",
 	"type": "module",
+	"description": "OpenAI client",
 	"scripts": {
 		"dev": "vite",
 		"build": "tsc && vite build",
 		"preview": "vite preview",
-		"make:lint": "eslint --fix \"**/*.{js,jsx,ts,cjs,tsx,scss,html}\" --max-warnings=0",
+		"make:lint": "eslint --fix \"**/*.{js,jsx,ts,cjs,tsx}\" --max-warnings=0",
 		"make:prettier": "prettier --write \"**/*.{js,jsx,ts,cjs,tsx,scss,html}\"",
 		"prepare": "husky install"
 	},
