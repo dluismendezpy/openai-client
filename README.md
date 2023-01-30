@@ -4,7 +4,7 @@ I built a Dall-E client using the OpenAI API. This allows me to easily generate 
 power of Dall-E's advanced language generation capabilities. With my client, I can specify the type of content I want to
 generate, and Dall-E will quickly create it for me.
 
-<div style="text-align: center">
+<div align="center">
 
 ![React](https://img.shields.io/badge/-React-black?style=flat-square&logo=React)
 ![Vite](https://img.shields.io/badge/-Vite-black?style=flat-square&logo=Vite)
@@ -15,28 +15,37 @@ generate, and Dall-E will quickly create it for me.
 
 ## Setup
 
-#### Cone repo (HTTPS, SSH or GH)
+### Cone repo (HTTPS, SSH or GH)
 
     git clone https://github.com/dluismendezpy/openai-client.git
     git@github.com:dluismendezpy/openai-client.git
     gh repo clone dluismendezpy/openai-client
 
-#### Install dependencies
+### Install dependencies
 
     npm install
 
-#### Env variables
+### Env variables
 
-- Create .env and add VITE_OPENAI_API_KEY=<YOUR_VITE_OPENAI_API_KEY> [Click here](https://beta.openai.com/account/api-keys)
-- On Terminal, type  `export VITE_OPENAI_API_KEY=<YOUR_VITE_OPENAI_API_KEY>`
+- #### Create .env and add
 
-#### Start dev server
+  VITE_OPENAI_API_KEY=<YOUR_VITE_OPENAI_API_KEY> [Click here](https://beta.openai.com/account/api-keys)
+
+
+- #### On Terminal
+
+      `export VITE_OPENAI_API_KEY=<YOUR_VITE_OPENAI_API_KEY>`
+
+### Start dev server
 
     npm run dev
 
-### Docker commands
+## Docker way
 
-    export VITE_OPENAI_API_KEY=<YOUR_VITE_OPENAI_API_KEY>
+#### Make sure you have exported VITE_OPENAI_API_KEY.
+
+#### Run and build docker container
+
     docker-compose up --build
 
 ## Examples
@@ -45,6 +54,7 @@ generate, and Dall-E will quickly create it for me.
 ![Screenshot](assets/img2.png)
 ![Screenshot](assets/img3.png)
 
-
 #### *Important*
-Make sure to create your OpenAI API key in order to run this application. [Learn more](https://beta.openai.com/account/api-keys).
+
+Make sure to create your OpenAI API key in order to run this
+application. [Learn more](https://beta.openai.com/account/api-keys).
